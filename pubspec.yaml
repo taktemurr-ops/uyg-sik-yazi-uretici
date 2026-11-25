@@ -1,0 +1,24 @@
+name: uyg_sik_yazi_uretici
+description: "Şık Yazı ve Sembol Üretici – Kişiselleştirme uygulaması (studio_core/apps + kisisel_motoru)."
+publish_to: none
+version: 1.0.0
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  studio_core:
+    git:
+      url: https://github.com/taktemurr-ops/studio-core
+      ref: 92b51dd7d47c300d3611c448b5474fca5f793f2a
+  kisisel_motoru:
+    git:
+      url: https://github.com/taktemurr-ops/kisisel-motoru
+      ref: 8427dca132e3642f02965b597cddda2c9a9f6a18
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
